@@ -11,13 +11,13 @@
 
     <?php
 // Variáveis
-$nome = "Chapolin";
+$NOME = "Chapolin";
 $idade = 25;
 
-echo "<p>Nome: <i> $nome </i> possui <b>$idade anos </b> <p/>";
+echo "<p>Nome: <i> .$NOME. </i> possui <b>$idade anos </b> <p/>";
 ?>
 
-<p>Nome: <i><?=$nome?></i> possui <b><?=$idade?></b> anos </p>
+<p>Nome: <i><?=$NOME?></i> possui <b><?=$idade?> anos</b> </p>
 
 </body>
 </html>
