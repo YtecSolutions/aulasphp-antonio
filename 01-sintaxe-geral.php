@@ -9,7 +9,7 @@
     <h1>Experiências com PHP</h1>
     <hr>
     <?php
-    echo "<b><i>Olá PHP!</i></b>";
+    echo "<b<i>>Olá PHP!</i></b>";
     echo 2023;
 
     ?> 
