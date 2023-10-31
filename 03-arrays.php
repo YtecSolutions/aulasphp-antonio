@@ -71,14 +71,9 @@ $filme = array(
 
 
 <!-- Saídas sem formatação -->
-<?=print_r($bandas)?>
+<?=print_r($cadastro)?>
 <br><br>
 <?=var_dump($bandas)?>
-
-<pre><?=print_r($bandas)?></pre>
-<pre><?=var_dump($bandas)?></pre>
-<pre><?=var_dump($livro)?></pre>
-
 </body>
 </html>
 
