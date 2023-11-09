@@ -18,8 +18,8 @@ $descricao = $_POST["descricao"];
 <li>produto:<?=$produto?></li>
 
 <li>fabricante: <?=$fabricante?></li>
-<!-- A virgua é o tipo de caracter para separar os numeros (NESTE CASO) -->
-<li>preco <?=number_format($preco, 2, ',', '.')?></li> 
+
+<li>preco:<?=number_format($preco, 2, ',', '.')?></li> 
 
 <li>descricao: <?=$descricao?></li>
 
