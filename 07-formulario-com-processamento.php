@@ -14,17 +14,23 @@
     <?php
     //Detectando o envio do formulário
 
-    if (isset($POST["enviar"])) {
-        echo "Foi setado!";
-    }
+    if (isset($_POST["enviar"])) {
+        // echo "Foi setado!"; somente para detecção.
+        $nome =$_POST["nome"];
+    
     ?>
+<h2>Dados processados!:</h2>
+<p>Nome: <?=$nome?></p>
 
+<?php } else {?>
     <form action="" method="post">
 
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome">
         <button type="submit" name="enviar">Enviar</button>
     </form>
+    <?php 
+    }?>
 
 </body>
 
